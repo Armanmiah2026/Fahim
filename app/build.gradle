@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'io.michaelrocks.paranoid'
-apply plugin: 'AndResGuard'
 
 android {
     compileSdkVersion 31
@@ -47,36 +46,7 @@ android {
         abortOnError false
     }
 }
-andResGuard {
-    mappingFile = null
-    use7zip = false
-    useSign = true
-    keepRoot = false
-    fixedResName = "arg"
-    mergeDuplicatedRes = true
-    whiteList = [
-            "R.drawable.icon",
-            "R.string.com.crashlytics.*",
-            "R.string.google_app_id",
-            "R.string.gcm_defaultSenderId",
-            "R.string.default_web_client_id",
-            "R.string.ga_trackingId",
-            "R.string.firebase_database_url",
-            "R.string.google_api_key",
-            "R.string.google_crash_reporting_api_key",
-            "R.string.project_id",
-    ]
-    compressFilePattern = [
-            "*.png",
-            "*.jpg",
-            "*.jpeg",
-            "*.gif",
-    ]
-    sevenzip {
-        artifact = 'com.tencent.mm:SevenZip:1.2.21'
-    }
-    finalApkBackupPath = "${project.rootDir}/final.apk"
-}
+
 dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
