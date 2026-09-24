@@ -12,10 +12,6 @@ android {
         targetSdkVersion 31
         versionCode 100
         versionName "1.0"
-        minSdkVersion 21
-        targetSdkVersion 31
-        versionCode 100
-        versionName "1.0"
         setProperty("archivesBaseName", "$applicationId-$versionName-(Build$versionCode)")
         ndk {
             abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a'
@@ -42,7 +38,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
-
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
