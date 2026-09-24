@@ -1,0 +1,637 @@
+# The proguard configuration file for the following section is C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.1.2
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+#
+# Starting with version 2.2 of the Android plugin for Gradle, this file is distributed together with
+# the plugin and unpacked at build-time. The files in $ANDROID_HOME are no longer maintained and
+# will be ignored by new version of the Android plugin for Gradle.
+
+# Optimizations: If you don't want to optimize, use the proguard-android.txt configuration file
+# instead of this one, which turns off the optimization flags.
+# Adding optimization introduces certain risks, since for example not all optimizations performed by
+# ProGuard works on all versions of Dalvik.  The following flags turn off various optimizations
+# known to have issues, but the list may not be complete or up to date. (The "arithmetic"
+# optimization can be used if you are only targeting Android 2.0 or later.)  Make sure you test
+# thoroughly if you go this route.
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Preserve some attributes that may be required for reflection.
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-keep public class com.google.android.vending.licensing.ILicensingService
+-dontnote com.android.vending.licensing.ILicensingService
+-dontnote com.google.vending.licensing.ILicensingService
+-dontnote com.google.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+    void set*(***);
+    *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick.
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+# Preserve annotated Javascript interface methods.
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# The support libraries contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version. We know about them, and they are safe.
+-dontnote android.support.**
+-dontnote androidx.**
+-dontwarn android.support.**
+-dontwarn androidx.**
+
+# This class is deprecated, but remains for backward compatibility.
+-dontwarn android.util.FloatMath
+
+# Understand the @Keep support annotation.
+-keep class android.support.annotation.Keep
+-keep class androidx.annotation.Keep
+
+-keep @android.support.annotation.Keep class * {*;}
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <init>(...);
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+# These classes are duplicated between android.jar and org.apache.http.legacy.jar.
+-dontnote org.apache.http.**
+-dontnote android.net.http.**
+
+# These classes are duplicated between android.jar and core-lambda-stubs.jar.
+-dontnote java.lang.invoke.**
+
+# End of content from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\build\intermediates\proguard-files\proguard-android-optimize.txt-4.1.2
+# The proguard configuration file for the following section is C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\proguard-rules.pro
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in C:\tools\adt-bundle-windows-x86_64-20131030\sdk/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+
+-optimizationpasses 5
+-allowaccessmodification
+
+-repackageclasses
+
+-ignorewarnings
+-dontwarn
+-dontnote
+
+#-keepattributes SourceFile,LineNumberTable
+-keep class net.openvpn.openvpn.ClientAPI** { *; }
+-keep class net.openvpn.openvpn.SWIG** { *; }
+-keep class net.openvpn.openvpn.ovpn** { *; }
+
+# End of content from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\proguard-rules.pro
+# The proguard configuration file for the following section is C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class net.openvpn.openvpn.OpenVPNRebootReceiver { <init>(); }
+-keep class renz.javacodez.vpn.activities.ExceptionActivity { <init>(); }
+-keep class renz.javacodez.vpn.activities.FileDialog { <init>(); }
+-keep class renz.javacodez.vpn.activities.LogActivity { <init>(); }
+-keep class renz.javacodez.vpn.activities.OpenVPNAbout { <init>(); }
+-keep class renz.javacodez.vpn.activities.OpenVPNApplication { <init>(); }
+-keep class renz.javacodez.vpn.activities.OpenVPNClient { <init>(); }
+-keep class renz.javacodez.vpn.activities.OpenVPNDisconnect { <init>(); }
+-keep class renz.javacodez.vpn.activities.OpenVPNPrefs { <init>(); }
+-keep class renz.javacodez.vpn.activities.ResellerPanelActivity { <init>(); }
+-keep class renz.javacodez.vpn.activities.SelectNetworkActivity { <init>(); }
+-keep class renz.javacodez.vpn.service.InjectorService { <init>(); }
+-keep class renz.javacodez.vpn.service.OpenVPNService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Barrier { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.github.angads25.filepicker.widget.MaterialCheckbox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.github.mikephil.charting.charts.LineChart { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.ChipGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textview.MaterialTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class renz.javacodez.vpn.view.CircleProgressBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class renz.javacodez.vpn.view.MaterialEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+
+# End of content from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\proguard.txt
+# Copyright (C) 2015 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# CoordinatorLayout resolves the behaviors of its child components with reflection.
+-keep public class * extends androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior {
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>();
+}
+
+# Make sure we keep annotations for CoordinatorLayout's DefaultBehavior
+-keepattributes RuntimeVisible*Annotation*
+
+# Copyright (C) 2018 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# AppCompatViewInflater reads the viewInflaterClass theme attribute which then
+# reflectively instantiates MaterialComponentsViewInflater using the no-argument
+# constructor. We only need to keep this constructor and the class name if
+# AppCompatViewInflater is also being kept.
+-if class androidx.appcompat.app.AppCompatViewInflater
+-keep class com.google.android.material.theme.MaterialComponentsViewInflater {
+    <init>();
+}
+
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\7a05423dedfb3b4d9707893c7d8093a1\appcompat-1.4.1\proguard.txt
+# Copyright (C) 2018 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# aapt is not able to read app::actionViewClass and app:actionProviderClass to produce proguard
+# keep rules. Add a commonly used SearchView to the keep list until b/109831488 is resolved.
+-keep class androidx.appcompat.widget.SearchView { <init>(...); }
+
+# Never inline methods, but allow shrinking and obfuscation.
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl* {
+  <methods>;
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\7a05423dedfb3b4d9707893c7d8093a1\appcompat-1.4.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4cdbfc051099359bf87eb53f2538738d\fragment-1.3.6\proguard.txt
+# Copyright (C) 2020 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# The default FragmentFactory creates Fragment instances using reflection
+-if public class ** extends androidx.fragment.app.Fragment
+-keepclasseswithmembers,allowobfuscation public class <1> {
+    public <init>();
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4cdbfc051099359bf87eb53f2538738d\fragment-1.3.6\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b52380831cd7e82630071e7d28a0ead4\media-1.0.0\proguard.txt
+# Copyright (C) 2017 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Prevent Parcelable objects from being removed or renamed.
+-keep class android.support.v4.media.** implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# Prevent Parcelable objects from being removed or renamed.
+-keep class androidx.media.** implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b52380831cd7e82630071e7d28a0ead4\media-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4928d6eb858a5aa02871bf1acae2e94b\coordinatorlayout-1.1.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# CoordinatorLayout resolves the behaviors of its child components with reflection.
+-keep public class * extends androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior {
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>();
+}
+
+# Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
+-keepattributes *Annotation*
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4928d6eb858a5aa02871bf1acae2e94b\coordinatorlayout-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bfa3c2766ff4b4f852c34de6b7ca3cc4\transition-1.2.0\proguard.txt
+# Copyright (C) 2017 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Keep a field in transition that is used to keep a reference to weakly-referenced object
+-keepclassmembers class androidx.transition.ChangeBounds$* extends android.animation.AnimatorListenerAdapter {
+  androidx.transition.ChangeBounds$ViewBounds mViewBounds;
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bfa3c2766ff4b4f852c34de6b7ca3cc4\transition-1.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\34e227ff9f8440cfe3e96834c350840a\vectordrawable-animated-1.1.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# keep setters in VectorDrawables so that animations can still work.
+-keepclassmembers class androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$* {
+   void set*(***);
+   *** get*();
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\34e227ff9f8440cfe3e96834c350840a\vectordrawable-animated-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac126a509e7dd95bbf1f44a1ed4097b1\recyclerview-1.1.0\proguard.txt
+# Copyright (C) 2015 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# When layoutManager xml attribute is used, RecyclerView inflates
+#LayoutManagers' constructors using reflection.
+-keep public class * extends androidx.recyclerview.widget.RecyclerView$LayoutManager {
+    public <init>(android.content.Context, android.util.AttributeSet, int, int);
+    public <init>();
+}
+
+-keepclassmembers class androidx.recyclerview.widget.RecyclerView {
+    public void suppressLayout(boolean);
+    public boolean isLayoutSuppressed();
+}
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac126a509e7dd95bbf1f44a1ed4097b1\recyclerview-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\proguard.txt
+# Never inline methods, but allow shrinking and obfuscation.
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
+  <methods>;
+}
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.WindowInsetsCompat$*Impl* {
+  <methods>;
+}
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.app.NotificationCompat$*$Api*Impl {
+  <methods>;
+}
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.os.UserHandleCompat$Api*Impl {
+  <methods>;
+}
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.widget.EdgeEffectCompat$Api*Impl {
+  <methods>;
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\f0d07cd5150f2c2120032c5d881ad30b\jetified-lifecycle-viewmodel-savedstate-2.3.1\proguard.txt
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
+    <init>(androidx.lifecycle.SavedStateHandle);
+}
+
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.AndroidViewModel {
+    <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\f0d07cd5150f2c2120032c5d881ad30b\jetified-lifecycle-viewmodel-savedstate-2.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\95d51fc1fadf4903770b9d1d8e385c63\jetified-savedstate-1.1.0\proguard.txt
+# Copyright (C) 2019 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+-keepclassmembers,allowobfuscation class * implements androidx.savedstate.SavedStateRegistry$AutoRecreated {
+    <init>();
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\95d51fc1fadf4903770b9d1d8e385c63\jetified-savedstate-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e4c730179a981b1fab71e4a19780c313\lifecycle-viewmodel-2.3.1\proguard.txt
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.AndroidViewModel {
+    <init>(android.app.Application);
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e4c730179a981b1fab71e4a19780c313\lifecycle-viewmodel-2.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\proguard.txt
+-keep class * implements androidx.versionedparcelable.VersionedParcelable
+-keep public class android.support.**Parcelizer { *; }
+-keep public class androidx.**Parcelizer { *; }
+-keep public class androidx.versionedparcelable.ParcelImpl
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\proguard.txt
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+-keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\proguard.txt
+# This Proguard rule ensures that ComponentInitializers are are neither shrunk nor obfuscated.
+# This is because they are discovered and instantiated during application initialization.
+-keep class * extends androidx.startup.Initializer {
+    # Keep the public no-argument constructor while allowing other methods to be optimized.
+    <init>();
+}
+
+-assumenosideeffects class androidx.startup.StartupLogger
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b6c43fe8600e92b51a474729311d53ec\lifecycle-runtime-2.4.0\proguard.txt
+-keepattributes AnnotationDefault,
+                RuntimeVisibleAnnotations,
+                RuntimeVisibleParameterAnnotations,
+                RuntimeVisibleTypeAnnotations
+
+-keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
+    <fields>;
+}
+
+-keep !interface * implements androidx.lifecycle.LifecycleObserver {
+}
+
+-keep class * implements androidx.lifecycle.GeneratedAdapter {
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @androidx.lifecycle.OnLifecycleEvent *;
+}
+
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+# Also this rule prevents registerIn from being inlined.
+-keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b6c43fe8600e92b51a474729311d53ec\lifecycle-runtime-2.4.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\011d25ae36dde6ce3847ef79636fe7c1\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keep,allowobfuscation @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+-keepclassmembers,allowobfuscation class * {
+  @androidx.annotation.DoNotInline <methods>;
+}
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\011d25ae36dde6ce3847ef79636fe7c1\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e112c2f4487555f2f7432c3df80b1c05\jetified-annotation-experimental-1.1.0\proguard.txt
+# Copyright (C) 2020 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Ignore missing Kotlin meta-annotations so that this library can be used
+# without adding a compileOnly dependency on the Kotlin standard library.
+-dontwarn kotlin.Deprecated
+-dontwarn kotlin.Metadata
+-dontwarn kotlin.ReplaceWith
+-dontwarn kotlin.annotation.AnnotationRetention
+-dontwarn kotlin.annotation.AnnotationTarget
+-dontwarn kotlin.annotation.Retention
+-dontwarn kotlin.annotation.Target
+
+# End of content from C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e112c2f4487555f2f7432c3df80b1c05\jetified-annotation-experimental-1.1.0\proguard.txt
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

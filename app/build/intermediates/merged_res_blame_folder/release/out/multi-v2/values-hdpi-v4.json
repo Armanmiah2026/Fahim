@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DELL\\Downloads\\MAHI-VIP-VPN\\MAHI-VIP-VPN\\MAHI-VIP-VPN\\HM-BUILD-DEMO\\SM VIP NET\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\Desktop\\apps\\mokim 7500\\ZAIN VIP DESIGN 02 v2 mokim\\ZAIN VIP DESIGN 02\\caches\\transforms-2\\files-2.1\\7a05423dedfb3b4d9707893c7d8093a1\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,405 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\cf61920b5bf70f5de1fb12635018caac\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\3d2c59e7ad1cab4dc333d8d216246c40\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\7a05423dedfb3b4d9707893c7d8093a1\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\89ae53ab81374ed788a4eb4e38f5202b\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\201089cad8d6fb14bd343c554fe8a1f0\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [:MPChartLib] C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\MPChartLib\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-18:12
+MERGED from [com.github.angads25:filepicker:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\78e72d86ccc2779d13ca13746afd73be\jetified-filepicker-1.1.1\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\069f3d7b84a61e4d4646eb65ba7e8203\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4cdbfc051099359bf87eb53f2538738d\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\70028c5204e8cd277267f59032021381\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ca046b88f1d09ddbc13a7eff7db8b620\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\da9d47401b41ff803c90a8703ff944de\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b52380831cd7e82630071e7d28a0ead4\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\5d4452ca76f940c8770bd3a1a5b23fa2\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b32db915446d6faf7b1c198c4e54beea\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bd89a68c595124402337f5df6609579c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\5b429652002f6072ef492423a1ec0672\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4928d6eb858a5aa02871bf1acae2e94b\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bfa3c2766ff4b4f852c34de6b7ca3cc4\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\34e227ff9f8440cfe3e96834c350840a\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac138a26c7ffa65076a92301ca270e2e\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\171b6a72f8756336f2a22a6edf2e636a\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\107f53527cfad79fa0b10c963b4516f6\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\718df8e66d437ec575b8f462c1624745\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bcfcff4d95e875370db437e9e7999c08\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\2eb9ae0a47c2942b38a78d85a58af337\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac126a509e7dd95bbf1f44a1ed4097b1\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b678fb01e5e6ef2cbc7fc994dc3804a4\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\38c9a4c92e48192c99415a298fe508ff\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\f0d07cd5150f2c2120032c5d881ad30b\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\95d51fc1fadf4903770b9d1d8e385c63\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e4c730179a981b1fab71e4a19780c313\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\cc54fdffbd31a0a2f299e9b82cab3a71\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9b58c8da71abda6af8bede3920458293\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\22e591fdcd80698abd71a93ac81b124b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b6c43fe8600e92b51a474729311d53ec\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6556fe32397f737a4577e05b6b626412\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\44a86670202fe1026453e85e39a59095\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\523a95fd4580ea4f7b036ae84ba34ef1\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\beb8cec4bed552bb5c600ed2e2367fd5\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\37a9a490e6cbb6db51d13196f422bbdf\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e112c2f4487555f2f7432c3df80b1c05\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+	package
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:8:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [com.github.angads25:filepicker:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\78e72d86ccc2779d13ca13746afd73be\jetified-filepicker-1.1.1\AndroidManifest.xml:11:5-80
+MERGED from [com.github.angads25:filepicker:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\78e72d86ccc2779d13ca13746afd73be\jetified-filepicker-1.1.1\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:11:5-84
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:11:22-81
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:14:5-88
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:14:22-85
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:15:22-74
+application
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:16:5-81:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\3d2c59e7ad1cab4dc333d8d216246c40\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\3d2c59e7ad1cab4dc333d8d216246c40\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\201089cad8d6fb14bd343c554fe8a1f0\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\201089cad8d6fb14bd343c554fe8a1f0\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:22:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:19:9-40
+	android:icon
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:17:9-36
+	android:theme
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:23:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:20:9-72
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:required
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:25:13-50
+service#renz.javacodez.vpn.service.OpenVPNService
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:27:9-33:19
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:29:13-36
+	android:permission
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:28:13-69
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:27:18-74
+intent-filter#action:name:android.net.VpnService
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:30:13-32:29
+action#android.net.VpnService
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:31:17-65
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:31:25-62
+service#renz.javacodez.vpn.service.InjectorService
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:34:9-36:38
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:35:13-70
+activity#renz.javacodez.vpn.activities.OpenVPNClient
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:37:9-46:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:38:13-64
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:39:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:44:27-74
+activity#renz.javacodez.vpn.activities.SelectNetworkActivity
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:48:3-52:38
+	android:windowSoftInputMode
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:49:13-64
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:52:13-36
+	android:theme
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:50:13-79
+receiver#net.openvpn.openvpn.OpenVPNRebootReceiver
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:53:9-58:20
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:53:19-75
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:55:13-57:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:56:25-76
+activity#renz.javacodez.vpn.activities.OpenVPNPrefs
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:60:9-61:38
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:60:19-76
+activity#renz.javacodez.vpn.activities.FileDialog
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:62:9-100
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:62:75-98
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:62:19-74
+activity#renz.javacodez.vpn.activities.OpenVPNAbout
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:63:9-102
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:63:77-100
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:63:19-76
+activity#renz.javacodez.vpn.activities.OpenVPNDisconnect
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:64:9-66:62
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:64:19-42
+	android:theme
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:66:13-59
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:65:13-75
+activity#renz.javacodez.vpn.activities.LogActivity
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:67:9-71:38
+	android:parentActivityName
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:70:13-85
+	android:label
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:69:13-33
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:68:13-69
+activity#renz.javacodez.vpn.activities.ExceptionActivity
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:72:13-75:42
+	android:label
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:74:17-50
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:75:17-40
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:73:17-79
+activity#renz.javacodez.vpn.activities.ResellerPanelActivity
+ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:76:9-80:38
+	android:parentActivityName
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:79:13-85
+	android:label
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:78:13-34
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:80:13-36
+	android:name
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml:77:13-79
+uses-sdk
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ffa11eecef8a07fedcee1a631401b27b\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\cf61920b5bf70f5de1fb12635018caac\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\cf61920b5bf70f5de1fb12635018caac\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\3d2c59e7ad1cab4dc333d8d216246c40\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\3d2c59e7ad1cab4dc333d8d216246c40\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\7a05423dedfb3b4d9707893c7d8093a1\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\7a05423dedfb3b4d9707893c7d8093a1\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\89ae53ab81374ed788a4eb4e38f5202b\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\89ae53ab81374ed788a4eb4e38f5202b\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\201089cad8d6fb14bd343c554fe8a1f0\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scottyab:rootbeer-lib:0.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\201089cad8d6fb14bd343c554fe8a1f0\jetified-rootbeer-lib-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [:MPChartLib] C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\MPChartLib\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:41
+MERGED from [:MPChartLib] C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\MPChartLib\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:41
+MERGED from [com.github.angads25:filepicker:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\78e72d86ccc2779d13ca13746afd73be\jetified-filepicker-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.angads25:filepicker:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\78e72d86ccc2779d13ca13746afd73be\jetified-filepicker-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\069f3d7b84a61e4d4646eb65ba7e8203\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\069f3d7b84a61e4d4646eb65ba7e8203\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4cdbfc051099359bf87eb53f2538738d\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4cdbfc051099359bf87eb53f2538738d\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\70028c5204e8cd277267f59032021381\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\70028c5204e8cd277267f59032021381\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ca046b88f1d09ddbc13a7eff7db8b620\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ca046b88f1d09ddbc13a7eff7db8b620\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\da9d47401b41ff803c90a8703ff944de\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\da9d47401b41ff803c90a8703ff944de\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b52380831cd7e82630071e7d28a0ead4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b52380831cd7e82630071e7d28a0ead4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\5d4452ca76f940c8770bd3a1a5b23fa2\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\5d4452ca76f940c8770bd3a1a5b23fa2\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b32db915446d6faf7b1c198c4e54beea\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b32db915446d6faf7b1c198c4e54beea\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bd89a68c595124402337f5df6609579c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bd89a68c595124402337f5df6609579c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\5b429652002f6072ef492423a1ec0672\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\5b429652002f6072ef492423a1ec0672\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4928d6eb858a5aa02871bf1acae2e94b\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\4928d6eb858a5aa02871bf1acae2e94b\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bfa3c2766ff4b4f852c34de6b7ca3cc4\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bfa3c2766ff4b4f852c34de6b7ca3cc4\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\34e227ff9f8440cfe3e96834c350840a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\34e227ff9f8440cfe3e96834c350840a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac138a26c7ffa65076a92301ca270e2e\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac138a26c7ffa65076a92301ca270e2e\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\171b6a72f8756336f2a22a6edf2e636a\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\171b6a72f8756336f2a22a6edf2e636a\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\107f53527cfad79fa0b10c963b4516f6\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\107f53527cfad79fa0b10c963b4516f6\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\718df8e66d437ec575b8f462c1624745\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\718df8e66d437ec575b8f462c1624745\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bcfcff4d95e875370db437e9e7999c08\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bcfcff4d95e875370db437e9e7999c08\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\2eb9ae0a47c2942b38a78d85a58af337\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\2eb9ae0a47c2942b38a78d85a58af337\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac126a509e7dd95bbf1f44a1ed4097b1\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\ac126a509e7dd95bbf1f44a1ed4097b1\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b678fb01e5e6ef2cbc7fc994dc3804a4\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b678fb01e5e6ef2cbc7fc994dc3804a4\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\911b16c96096744ac4614ce9dca8f3e7\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\38c9a4c92e48192c99415a298fe508ff\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\38c9a4c92e48192c99415a298fe508ff\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\f0d07cd5150f2c2120032c5d881ad30b\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\f0d07cd5150f2c2120032c5d881ad30b\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\95d51fc1fadf4903770b9d1d8e385c63\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\95d51fc1fadf4903770b9d1d8e385c63\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e4c730179a981b1fab71e4a19780c313\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e4c730179a981b1fab71e4a19780c313\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\bb10d081adade0df24a959acf7da3f5e\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\cc54fdffbd31a0a2f299e9b82cab3a71\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\cc54fdffbd31a0a2f299e9b82cab3a71\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9b58c8da71abda6af8bede3920458293\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9b58c8da71abda6af8bede3920458293\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\22e591fdcd80698abd71a93ac81b124b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\22e591fdcd80698abd71a93ac81b124b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b6c43fe8600e92b51a474729311d53ec\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\b6c43fe8600e92b51a474729311d53ec\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6556fe32397f737a4577e05b6b626412\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6556fe32397f737a4577e05b6b626412\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\44a86670202fe1026453e85e39a59095\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\44a86670202fe1026453e85e39a59095\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\523a95fd4580ea4f7b036ae84ba34ef1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\523a95fd4580ea4f7b036ae84ba34ef1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\beb8cec4bed552bb5c600ed2e2367fd5\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\beb8cec4bed552bb5c600ed2e2367fd5\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\37a9a490e6cbb6db51d13196f422bbdf\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\37a9a490e6cbb6db51d13196f422bbdf\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e112c2f4487555f2f7432c3df80b1c05\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\e112c2f4487555f2f7432c3df80b1c05\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\9e991bb0d10a1677b0f58aaf5cfdec7a\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\6fa85d443de3ea9468adbd5eae4c417b\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\Desktop\apps\mokim 7500\ZAIN VIP DESIGN 02 v2 mokim\ZAIN VIP DESIGN 02\caches\transforms-2\files-2.1\88915cd92e65146c54d32e563dbbc062\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

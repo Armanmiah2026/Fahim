@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DELL\\Downloads\\MAHI-VIP-VPN\\MAHI-VIP-VPN\\MAHI-VIP-VPN\\HM-BUILD-DEMO\\SM VIP NET\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\Desktop\\apps\\mokim 7500\\ZAIN VIP DESIGN 02 v2 mokim\\ZAIN VIP DESIGN 02\\caches\\transforms-2\\files-2.1\\7a05423dedfb3b4d9707893c7d8093a1\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

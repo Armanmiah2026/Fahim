@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "BUNDLE",
+    "kind": "RegularFile"
+  },
+  "applicationId": "app.dev.shapla.vpn",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "outputFile": "../../../outputs/bundle/debug/app.dev.shapla.vpn-1.0-(Build100)-debug.aab"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="notification_action_color_filter">#ffffffff</color>
+<color name="file_dialog_gray">#ffff0000</color>
+<color name="notification_icon_bg_color">#ff9e9e9e</color>
+<color name="ripple_material_light">#1f000000</color>
+<color name="secondary_text_default_material_light">#8a000000</color>
+	<color name="primary_color">#3F51B5</color>
+	<color name="primaryDark_color">#000000</color>
+	<color name="accent_color">#3F51B5</color>
+	<color name="graph_color">#1383C7</color>
+	<color name="bottomnavigation_bg">#910707</color>
+	<color name="bottomnavigation_icon_tint">#FDF9F9</color>
+	<color name="main_accent">#FF6D00</color>
+	<color name="main_bg_color">#AAC5EF</color>
+	<color name="colorBtnBg">#2196F3</color>
+	<color name="colorBtnDarkGreen">#ffba0000</color>
+	<color name="colorBtnStroke">#ffffff</color>
+	<color name="lightBackground">#e0e0e0</color>
+	<color name="mainBackground">#FF9700</color>
+	<color name="color1">#2196F3</color>
+	<color name="color2">#00e676</color>
+</resources>

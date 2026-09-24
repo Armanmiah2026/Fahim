@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.1.2">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/sent_bytes`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="   android:id=&quot;@+id/sent_bytes&quot;"
+        errorLine2="   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\res\layout\graph.xml"
+            line="107"
+            column="4"/>
+        <location
+            file="C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\res\layout\graph.xml"
+            line="35"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/recv_bytes`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="   android:id=&quot;@+id/recv_bytes&quot;"
+        errorLine2="   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\res\layout\graph.xml"
+            line="123"
+            column="4"/>
+        <location
+            file="C:\Users\DELL\Downloads\MAHI-VIP-VPN\MAHI-VIP-VPN\MAHI-VIP-VPN\HM-BUILD-DEMO\SM VIP NET\app\src\main\res\layout\graph.xml"
+            line="58"
+            column="5"/>
+    </issue>
+
+</issues>

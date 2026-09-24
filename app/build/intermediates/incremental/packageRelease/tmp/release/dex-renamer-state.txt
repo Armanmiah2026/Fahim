@@ -1,0 +1,4 @@
+#Wed Oct 05 19:20:20 AST 2022
+base.0=C\:\\Users\\DELL\\Downloads\\MAHI-VIP-VPN\\MAHI-VIP-VPN\\MAHI-VIP-VPN\\HM-BUILD-DEMO\\SM VIP NET\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
